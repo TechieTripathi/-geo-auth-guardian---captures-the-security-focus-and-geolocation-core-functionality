@@ -18,6 +18,7 @@ const {
   testEmailConfiguration,
 } = require("./utils/email-notifications");
 const { scheduleDailySummary } = require("./utils/daily-summary");
+require("dotenv").config();
 
 const app = express();
 const port = 3000;

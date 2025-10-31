@@ -1,14 +1,15 @@
 // utils/email-notifications.js
 const nodemailer = require('nodemailer');
 const config = require('../config/settings');
+require("dotenv").config();
 
 // Email transporter configuration
 const transporter = nodemailer.createTransport({
   // Gmail configuration (you can change this to your email provider)
   service: 'gmail',
   auth: {
-    user: process.env.EMAIL_USER || 'vishnutripathi.ai@gmail.com',
-    pass: process.env.EMAIL_PASS || 'dmcb jouz affc nhph'
+    user: process.env.EMAIL_USER || 'your@gmail.com',
+    pass: process.env.EMAIL_PASS || 'your - app -password'
   }
   
   // Alternative SMTP configuration
