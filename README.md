@@ -63,7 +63,7 @@ A sophisticated location-based authentication system that prevents credential sh
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/geo-auth-guardian.git
+git clone https://github.com/TechieTripathi/geo-auth-guardian.git
 cd geo-auth-guardian
 
 # Install dependencies
@@ -174,9 +174,9 @@ Edit `config/settings.js` to customize:
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+<!-- ## 📄 License
 
-This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details. -->
 
 ## 🙏 Acknowledgments
 
