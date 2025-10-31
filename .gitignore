@@ -32,3 +32,7 @@ Thumbs.db
 
 
 resources.txt
+package-lock.json
+
+initial/*
+.vscode/*
